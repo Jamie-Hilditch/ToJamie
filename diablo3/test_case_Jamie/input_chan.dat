@@ -15,8 +15,8 @@ C Aspect Ratio: DELTA
                 10.0
 C Upward vertical vector components, GRAV_X, GRAV_Y, GRAV_Z
                                       0.0     0.0     1.0
-C Forcing:      F_TYPE,   UBULK0,   PX0,    OMEGA0,   AMP_OMEGA0
-                  3         0.0     0.0      0.0        0.0
+C Forcing:      F_TYPE,   UBULK0,   PX0,    OMEGA0,   AMP_OMEGA0, FORCE_START
+                  3         0.0     0.0      0.0        0.0        0.0
 C BCs in vertical (Z Direction):  0=Dirichlet, 1=Neumann
 C     u_BC_Zmin,  u_BC_Zmin_C1
       1           0.0

@@ -2442,7 +2442,7 @@ end
 
 
   integer i, j, k, n
-  complex(rkind), intent(inout) :: CS2(:,:,:) ! Can be CSij2 or CSIij2
+  complex(rkind), intent(inout) :: CS2(0:Nxp,0:Nz+1,0:Nyp+1) ! Can be CSij2 or CSIij2
 
   ! Define the arrays that will be used for data packing.  This makes the
   ! communication between processes more efficient by only requiring one
